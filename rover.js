@@ -62,6 +62,7 @@ const marsRovers = (coord, pos1, instructions1, pos2, instructions2) => {
 
   //Add coordinates for both rovers to an array
   const result = [move(rover1, actions1), move(rover2, actions2)]
+  //log for visibility
   console.log(result)
   return result
 }
