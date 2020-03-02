@@ -60,11 +60,7 @@ const marsRovers = (coord, pos1, instructions1, pos2, instructions2) => {
     return finalCoords
   }
 
-  //print the end coordinates of 1st rover
-  //console.log(move(rover1, actions1))
-
-  //print the end coordinates of 2nd rover
-  //console.log(move(rover2, actions2))
+  //Add coordinates for both rovers to an array
   const result = [move(rover1, actions1), move(rover2, actions2)]
   console.log(result)
   return result
