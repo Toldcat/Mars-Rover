@@ -1,0 +1,14 @@
+{
+  "name": "rover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rover.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Andrew",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  }
+}
